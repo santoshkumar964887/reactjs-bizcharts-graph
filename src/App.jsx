@@ -117,40 +117,42 @@ function App() {
   };
 
   return (
-    <div className='full-width-height container'>
-      <h1 className='no-margin center'>India and States</h1>
-      <ReactTooltip>{tooltipContent}</ReactTooltip>
-      <ComposableMap
-        projectionConfig={PROJECTION_CONFIG}
-        projection='geoMercator'
-        width={600}
-        height={220}
-        data-tip=''
-      >
-        <Geographies geography={INDIA_TOPO_JSON}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
-              //console.log(geo.id);
-              const current = data.find((s) => s.id === geo.id);
-              return (
-                <Geography
-                  key={geo.rsmKey}
-                  geography={geo}
-                  fill={current ? colorScale(current.value) : DEFAULT_COLOR}
-                  style={geographyStyle}
-                  onMouseEnter={onMouseEnter(geo, current)}
-                  onMouseLeave={onMouseLeave}
-                />
-              );
-            })
-          }
-        </Geographies>
-      </ComposableMap>
-      <LinearGradient data={gradientData} />
-      <div className='center'>
-        <button className='mt16' onClick={onChangeButtonClick}>
-          Change
-        </button>
+    <div style={{ width: '500px', height: 'auto' }}>
+      <div className='full-width-height container'>
+        <h1 className='no-margin center'>India and States</h1>
+        <ReactTooltip>{tooltipContent}</ReactTooltip>
+        <ComposableMap
+          projectionConfig={PROJECTION_CONFIG}
+          projection='geoMercator'
+          width={250}
+          height={220}
+          data-tip=''
+        >
+          <Geographies geography={INDIA_TOPO_JSON}>
+            {({ geographies }) =>
+              geographies.map((geo) => {
+                //console.log(geo.id);
+                const current = data.find((s) => s.id === geo.id);
+                return (
+                  <Geography
+                    key={geo.rsmKey}
+                    geography={geo}
+                    fill={current ? colorScale(current.value) : DEFAULT_COLOR}
+                    style={geographyStyle}
+                    onMouseEnter={onMouseEnter(geo, current)}
+                    onMouseLeave={onMouseLeave}
+                  />
+                );
+              })
+            }
+          </Geographies>
+        </ComposableMap>
+        <LinearGradient data={gradientData} />
+        <div className='center'>
+          <button className='mt16' onClick={onChangeButtonClick}>
+            Change
+          </button>
+        </div>
       </div>
     </div>
   );

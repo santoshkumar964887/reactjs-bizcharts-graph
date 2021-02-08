@@ -9,11 +9,13 @@ export const Main = () => {
       style={{
         display: 'flex',
         justifyContent: 'space-around',
+        alignItems: 'center',
         flexWrap: 'wrap',
       }}
     >
       <App />
       <Grouped />
+
       <SliderChart />
       <Demo />
     </div>
