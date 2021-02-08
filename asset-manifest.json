@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/reactjs-bizcharts-graph/static/css/main.90110fd3.chunk.css",
-    "main.js": "/reactjs-bizcharts-graph/static/js/main.a14711d2.chunk.js",
-    "main.js.map": "/reactjs-bizcharts-graph/static/js/main.a14711d2.chunk.js.map",
+    "main.js": "/reactjs-bizcharts-graph/static/js/main.e7d2e590.chunk.js",
+    "main.js.map": "/reactjs-bizcharts-graph/static/js/main.e7d2e590.chunk.js.map",
     "runtime-main.js": "/reactjs-bizcharts-graph/static/js/runtime-main.cac1abb2.js",
     "runtime-main.js.map": "/reactjs-bizcharts-graph/static/js/runtime-main.cac1abb2.js.map",
     "static/js/2.f7f28604.chunk.js": "/reactjs-bizcharts-graph/static/js/2.f7f28604.chunk.js",
     "static/js/2.f7f28604.chunk.js.map": "/reactjs-bizcharts-graph/static/js/2.f7f28604.chunk.js.map",
     "index.html": "/reactjs-bizcharts-graph/index.html",
-    "precache-manifest.31b0e00eba19dc9154698b656d171946.js": "/reactjs-bizcharts-graph/precache-manifest.31b0e00eba19dc9154698b656d171946.js",
+    "precache-manifest.f10b3637ebbdbb4a92e8451721b4e175.js": "/reactjs-bizcharts-graph/precache-manifest.f10b3637ebbdbb4a92e8451721b4e175.js",
     "service-worker.js": "/reactjs-bizcharts-graph/service-worker.js",
     "static/css/main.90110fd3.chunk.css.map": "/reactjs-bizcharts-graph/static/css/main.90110fd3.chunk.css.map",
     "static/js/2.f7f28604.chunk.js.LICENSE.txt": "/reactjs-bizcharts-graph/static/js/2.f7f28604.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cac1abb2.js",
     "static/js/2.f7f28604.chunk.js",
     "static/css/main.90110fd3.chunk.css",
-    "static/js/main.a14711d2.chunk.js"
+    "static/js/main.e7d2e590.chunk.js"
   ]
 }
