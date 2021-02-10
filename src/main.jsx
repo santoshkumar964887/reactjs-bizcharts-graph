@@ -1,9 +1,9 @@
 import React from 'react';
-import Grouped from './chart1';
-import SliderChart from './Chart2';
-import Demo from './chart3';
-import App from './App';
-import Horizontal from './chart4';
+import HistogramGraph from './HistogramGraph';
+import PieChart from './PieChart';
+import HistogramTwoColumnChart from './HistogramTwoColumnChart';
+import IndiaChart from './IndiaChart';
+import Horizontal from './HorizontalBarChart';
 export const Main = () => {
   return (
     <div
@@ -14,10 +14,10 @@ export const Main = () => {
         flexWrap: 'wrap',
       }}
     >
-      <App />
-      <Grouped />
-      <SliderChart />
-      <Demo />
+      <IndiaChart />
+      <HistogramGraph />
+      <PieChart />
+      <HistogramTwoColumnChart />
       <Horizontal />
     </div>
   );

@@ -80,7 +80,7 @@ const scale = {
   },
 };
 
-function Grouped() {
+function HistogramGraph() {
   return (
     <div>
       <Chart
@@ -89,9 +89,7 @@ function Grouped() {
         padding='auto'
         data={data}
         autoFit
-        filter={[
-          ['avgRainfall', (val) => val != null], // 图表将会只渲染过滤后的数据
-        ]}
+        filter={[['avgRainfall', (val) => val != null]]}
       >
         <Interval
           adjust={[
@@ -106,19 +104,8 @@ function Grouped() {
         <Tooltip shared />
         <Interaction type='active-region' />
       </Chart>
-      {/* <Chart
-        height={400}
-        scale={scale}
-        autoFit
-        data={data}
-        interactions={['active-region']}
-        appendPadding={[20, 0, 0, 0]}
-      >
-        <Interval position='year*sales' color='year' />
-        <Tooltip shared />
-      </Chart> */}
     </div>
   );
 }
 
-export default Grouped;
+export default HistogramGraph;

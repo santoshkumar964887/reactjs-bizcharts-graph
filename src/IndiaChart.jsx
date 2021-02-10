@@ -3,7 +3,6 @@ import { ComposableMap, Geographies, Geography } from 'react-simple-maps';
 import { scaleQuantile } from 'd3-scale';
 import ReactTooltip from 'react-tooltip';
 import LinearGradient from './LinearGradient.js';
-import './App.css';
 
 const INDIA_TOPO_JSON = require('./india.topo.json');
 
