@@ -3,6 +3,7 @@ import Grouped from './chart1';
 import SliderChart from './Chart2';
 import Demo from './chart3';
 import App from './App';
+import Horizontal from './chart4';
 export const Main = () => {
   return (
     <div
@@ -15,9 +16,9 @@ export const Main = () => {
     >
       <App />
       <Grouped />
-
       <SliderChart />
       <Demo />
+      <Horizontal />
     </div>
   );
 };
