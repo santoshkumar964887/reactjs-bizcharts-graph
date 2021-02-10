@@ -48,8 +48,8 @@ function Demo() {
       padding={[10, 20, 50, 40]}
       borderRadius={10}
       autoFit
-      height={500}
-      width={500}
+      height={280}
+      width={600}
       data={data}
     >
       <Coordinate transpose />
